@@ -11,3 +11,4 @@ using:
 8. flask-migrate
 9. flask-login
 10. postgresql (optional)
+

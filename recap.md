@@ -9,3 +9,9 @@
 7. pip install flask-login
 8. Creating user logins
 9. Snapshot --> local repo --> Github
+
+
+
+## Second Commit - User Profile
+1. Creating user profile page
+2. Snapshot --> local repo --> Github
