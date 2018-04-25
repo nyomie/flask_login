@@ -11,7 +11,14 @@
 9. Snapshot --> local repo --> Github
 
 
-
 ## Second Commit - User Profile
 1. Creating user profile page
 2. Snapshot --> local repo --> Github
+
+
+## Third Commit - Error Handling
+1. Creating error template 
+2. Setting up database session rollback for error 500
+3. Setting up email and file logging
+4. Adding validate_username in EditProfileForm class to avoid duplicate username
+5. Snapshot --> Local repo --> Github
