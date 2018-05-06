@@ -1,0 +1,44 @@
+2018-04-28 18:07:59,492 ERROR: Exception on /index [GET] [in /Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py:1587]
+Traceback (most recent call last):
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/ninatunas/PycharmProjects/flask_login/app/routes.py", line 26, in index
+    return render_template('index.html',title='Home', posts=posts)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/werkzeug/local.py", line 343, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'followed_post'
+2018-04-28 18:08:02,188 ERROR: Exception on /index [GET] [in /Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py:1587]
+Traceback (most recent call last):
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/ninatunas/PycharmProjects/flask_login/app/routes.py", line 26, in index
+    return render_template('index.html',title='Home', posts=posts)
+  File "/Users/ninatunas/anaconda/lib/python3.5/site-packages/werkzeug/local.py", line 343, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'followed_post'
+2018-04-28 18:08:14,297 INFO: Microblog startup [in /Users/ninatunas/PycharmProjects/flask_login/app/__init__.py:49]
+2018-05-05 21:16:21,841 INFO: Microblog startup [in /Users/ninatunas/PycharmProjects/flask_login/app/__init__.py:49]

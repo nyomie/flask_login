@@ -13,5 +13,5 @@ if __name__ == '__main__':
     """
     Application entry point
     """
-    use_debugger = True
-    app.run(debug=True)
+    use_debugger = False
+    app.run(debug=False)

@@ -22,3 +22,8 @@
 3. Setting up email and file logging
 4. Adding validate_username in EditProfileForm class to avoid duplicate username
 5. Snapshot --> Local repo --> Github
+
+## 4th Commit - Followers and Posts
+1. Create Followers table and update User model.
+2. Update view to implement pagination
+3. Snapshot --> Local repo --> Github
