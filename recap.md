@@ -23,7 +23,14 @@
 4. Adding validate_username in EditProfileForm class to avoid duplicate username
 5. Snapshot --> Local repo --> Github
 
-## 4th Commit - Followers and Posts
+
+## 4th Commit - Followers, Posts and Pagination
 1. Create Followers table and update User model.
-2. Update view to implement pagination
+2. Update view to implement posts and pagination
+3. Snapshot --> Local repo --> Github
+
+
+## 5th Commit - Email Support
+1. Set reset password using token from pyjwt
+2. Create email automation to send the reset password link
 3. Snapshot --> Local repo --> Github

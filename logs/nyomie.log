@@ -42,3 +42,4 @@ Traceback (most recent call last):
 AttributeError: 'User' object has no attribute 'followed_post'
 2018-04-28 18:08:14,297 INFO: Microblog startup [in /Users/ninatunas/PycharmProjects/flask_login/app/__init__.py:49]
 2018-05-05 21:16:21,841 INFO: Microblog startup [in /Users/ninatunas/PycharmProjects/flask_login/app/__init__.py:49]
+2018-05-12 14:58:09,360 INFO: Microblog startup [in /Users/ninatunas/PycharmProjects/flask_login/app/__init__.py:50]
